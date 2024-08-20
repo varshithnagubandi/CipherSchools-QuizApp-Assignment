@@ -12,7 +12,7 @@ app.use(bodyparser.json());
 //using cors --> accessing the routes from any domain
 app.use(cors({ origin: "*" }));
 
-const port = 5500;
+const port = process.env.PORT;
 
 mongoose
   .connect(process.env.MONGO_URI)
