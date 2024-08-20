@@ -12,11 +12,14 @@ const MyProfile = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5500/students/my-profile", {
-        headers: {
-          "x-token": token,
-        },
-      })
+      .get(
+        "https://cipherschool-quizapp-backends.onrender.com/students/my-profile",
+        {
+          headers: {
+            "x-token": token,
+          },
+        }
+      )
       .then((res) => setData(res.data))
       .catch((error) => {
         console.log(error);

@@ -18,7 +18,10 @@ const Login = () => {
   const submitHandler = (event) => {
     event.preventDefault();
     axios
-      .post("http://localhost:5500/students/verify-login", data)
+      .post(
+        "https://cipherschool-quizapp-backends.onrender.com/students/verify-login",
+        data
+      )
       .then((res) => setToken(res.data.token));
   };
 

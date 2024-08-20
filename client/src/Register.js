@@ -20,7 +20,10 @@ const Register = () => {
     event.preventDefault();
     if (data.password === data.confirmpassword) {
       axios
-        .post("http://localhost:5500/students/add-student", data)
+        .post(
+          "https://cipherschool-quizapp-backends.onrender.com/students/add-student",
+          data
+        )
         .then(() => {
           alert("USER REGISTER SUCCESSFULLY");
         })
