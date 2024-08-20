@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+
+li:hover {
+  background-color: #ddd;
+}
+
+.selected {
+  background-color: #b3e5fc;
+}
+
+.button {
+  background-color: #0dbc72;
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-size: 16px;
+  width: auto;
+  cursor: pointer;
+  border: none;
+  color: white;
+  margin: 5px;
+}
+.button-disable {
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-size: 16px;
+  width: auto;
+  cursor: not-allowed;
+  border: none;
+  color: white;
+  background-color: #ccc;
+  margin: 5px;
+}
+
+.quiz-score {
+  color: red;
+  font-size: 24px;
+}
+.quiz-result {
+  color: blue;
+  font-size: 24px;
+}
+.warning {
+  color: #0dbc72;
+  font-size: 20px;
+}
+.logout-button {
+  background-color: #ff4d4d;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 15px 30px;
+  font-size: 16px;
+  margin: 5px;
+}
+.logout-button:hover {
+  background-color: #ff1a1a;
+}
+
+.webcam-feed {
+  width: 320px;
+  height: 240px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

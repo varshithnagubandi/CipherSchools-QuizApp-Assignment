@@ -1,0 +1,54 @@
+.profile-head {
+  color: red;
+}
+
+.cipher-pic {
+  height: 190px;
+}
+
+.profile-div {
+  border-style: solid;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding-bottom: 10px;
+}
+
+.heading-pro {
+  color: blue;
+}
+
+.instructions {
+  color: green;
+}
+
+.profile-button-start {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none; /* Ensure border is removed */
+  font-size: 16px; /* Increase font size for better readability */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.profile-button-start:hover {
+  background-color: darkgreen; /* Darker green on hover */
+}
+
+.profile-button-out {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none; /* Ensure border is removed */
+  font-size: 16px; /* Increase font size for better readability */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.profile-button-out:hover {
+  background-color: darkred; /* Darker red on hover */
+}

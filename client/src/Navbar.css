@@ -1,0 +1,31 @@
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: blue;
+}
+
+.left h1 {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.nav-ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+.nav-link:hover {
+  color: red;
+}
