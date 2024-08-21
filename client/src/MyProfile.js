@@ -13,7 +13,7 @@ const MyProfile = () => {
   useEffect(() => {
     axios
       .get(
-        "https://cipherschool-quizapp-backends.onrender.com/students/my-profile",
+        "http://localhost:5500/students/my-profile",
         {
           headers: {
             "x-token": token,
