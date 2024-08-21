@@ -21,7 +21,7 @@ const Register = () => {
     if (data.password === data.confirmpassword) {
       axios
         .post(
-          "https://cipherschool-quizapp-backends.onrender.com/students/add-student",
+          "http://localhost:5500/students/add-student",
           data
         )
         .then(() => {
